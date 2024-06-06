@@ -12,3 +12,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install-aws
+    - name: lint
+      run: |
+        make lint
+      - name: test
+      run: |
+        make test
